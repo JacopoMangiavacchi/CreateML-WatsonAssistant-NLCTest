@@ -6,85 +6,19 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		7E1E680620C7141B00970812 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E680520C7141B00970812 /* main.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		7E1E680020C7141B00970812 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		7E02718720C7152600566B3A /* CreateML-WatsonAssistant-NLCTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "CreateML-WatsonAssistant-NLCTest.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		7E1E680220C7141B00970812 /* CreateML-WatsonAssistant-NLCTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CreateML-WatsonAssistant-NLCTest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E1E680520C7141B00970812 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		7E1E67FF20C7141B00970812 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		7E1E67F920C7141B00970812 = {
 			isa = PBXGroup;
 			children = (
 				7E02718720C7152600566B3A /* CreateML-WatsonAssistant-NLCTest.playground */,
-				7E1E680420C7141B00970812 /* CreateML-WatsonAssistant-NLCTest */,
-				7E1E680320C7141B00970812 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		7E1E680320C7141B00970812 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7E1E680220C7141B00970812 /* CreateML-WatsonAssistant-NLCTest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7E1E680420C7141B00970812 /* CreateML-WatsonAssistant-NLCTest */ = {
-			isa = PBXGroup;
-			children = (
-				7E1E680520C7141B00970812 /* main.swift */,
-			);
-			path = "CreateML-WatsonAssistant-NLCTest";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		7E1E680120C7141B00970812 /* CreateML-WatsonAssistant-NLCTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7E1E680920C7141B00970812 /* Build configuration list for PBXNativeTarget "CreateML-WatsonAssistant-NLCTest" */;
-			buildPhases = (
-				7E1E67FE20C7141B00970812 /* Sources */,
-				7E1E67FF20C7141B00970812 /* Frameworks */,
-				7E1E680020C7141B00970812 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "CreateML-WatsonAssistant-NLCTest";
-			productName = "CreateML-WatsonAssistant-NLCTest";
-			productReference = 7E1E680220C7141B00970812 /* CreateML-WatsonAssistant-NLCTest */;
-			productType = "com.apple.product-type.tool";
-		};
-/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		7E1E67FA20C7141B00970812 /* Project object */ = {
@@ -93,12 +27,6 @@
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Jacopo Mangiavacchi";
-				TargetAttributes = {
-					7E1E680120C7141B00970812 = {
-						CreatedOnToolsVersion = 10.0;
-						LastSwiftMigration = 1000;
-					};
-				};
 			};
 			buildConfigurationList = 7E1E67FD20C7141B00970812 /* Build configuration list for PBXProject "CreateML-WatsonAssistant-NLCTest" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -108,25 +36,13 @@
 				en,
 			);
 			mainGroup = 7E1E67F920C7141B00970812;
-			productRefGroup = 7E1E680320C7141B00970812 /* Products */;
+			productRefGroup = 7E1E67F920C7141B00970812;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7E1E680120C7141B00970812 /* CreateML-WatsonAssistant-NLCTest */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		7E1E67FE20C7141B00970812 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7E1E680620C7141B00970812 /* main.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		7E1E680720C7141B00970812 /* Debug */ = {
@@ -242,26 +158,6 @@
 			};
 			name = Release;
 		};
-		7E1E680A20C7141B00970812 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SV6W498A95;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-			};
-			name = Debug;
-		};
-		7E1E680B20C7141B00970812 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SV6W498A95;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -270,15 +166,6 @@
 			buildConfigurations = (
 				7E1E680720C7141B00970812 /* Debug */,
 				7E1E680820C7141B00970812 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7E1E680920C7141B00970812 /* Build configuration list for PBXNativeTarget "CreateML-WatsonAssistant-NLCTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7E1E680A20C7141B00970812 /* Debug */,
-				7E1E680B20C7141B00970812 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
